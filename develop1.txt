@@ -1,0 +1,7 @@
+git checkout master //switches to the master branch
+git branch -D develop newfeature //force delete branch
+git push origin :develop :newfeature //delete tag in remote repository called origin
+git tag -d V0.1 //deletes tag locally
+git push origin :V0.1 //delete tag in remote repository called origin
+git reset --hard <last commit ID> //makes the working tree exactly match HEAD
+git push --force //destroys all work that you have done
